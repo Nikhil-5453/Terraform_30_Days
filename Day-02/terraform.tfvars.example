@@ -1,0 +1,7 @@
+
+# Copy this file to terraform.tfvars
+# replce the values with actuall values
+
+aws_region   = "region"
+creds  = "path/to/path"
+config = "path/to/path"

@@ -4,6 +4,8 @@
 *.tfstate
 *.tfstate.backup
 *.terraform.lock.hcl
+# tfvars files, which are likely to contain sensitive data such as passwords and API keys
+terraform.tfvars
 # Crash log files
 # crash.log
 # Exclude .tfvars files, which are likely to contain sensitive data such as passwords and API keys

@@ -12,7 +12,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-1"
-  shared_config_files = ["C:/Users/nikhil/.aws/config"]
-  shared_credentials_files = ["C:/Users/nikhil/.aws/credentials"]
+  region = var.aws_region
+  shared_config_files = [var.config]
+  shared_credentials_files = [var.creds]
 }
