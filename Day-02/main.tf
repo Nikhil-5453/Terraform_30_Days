@@ -34,7 +34,7 @@ resource "aws_security_group_rule" "inbound_https" {
 resource "aws_instance" "new_instance" {
   count = 1
   ami           = "ami-0f559c3642608c138"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   security_groups = [aws_security_group.new_sg.name]
   root_block_device {
     volume_size = 8
