@@ -1,4 +1,6 @@
 
+# Create a new EC2 instance and security group using Terraform.
+
 resource "aws_security_group" "new_sg" {
   name        = "new_sg"
   description = "Security group for new instance"
